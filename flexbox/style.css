@@ -1,20 +1,20 @@
 html, body {
     margin: 0;
     padding: 0;
+    padding-bottom: 1000px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
     line-height: 1.6;
-    padding-bottom: 1000px;
     padding: 10px;
     box-sizing: border-box;
 }
 
 /* latihan 1 */
 .container-satu {
-    max-width: 800px;
+    max-width: 900px;
     background-color: rgb(240, 223, 223);
     margin: 50px auto;
     display: flex;
@@ -50,7 +50,7 @@ body {
 
 /* latihan 2 */
 .container-dua {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
     /* box-sizing: border-box; */
 }
@@ -77,7 +77,7 @@ body {
 
 /* latihan 3 */
 .container-tiga {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +103,75 @@ body {
     transition: 0.4s;
 }
 /* end latihan 3 */
+
+/* latihan 4 */
+.container-empat {
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    flex: 1;
+}
+
+.card .header {
+    background-color: #8f6363;
+    height: 160px;
+}
+
+.card .content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(107, 159, 226);
+    border: 1px solid rgb(107, 159, 226);
+}
+
+.card button:hover {
+    background-color: rgb(29, 117, 231);
+}
+
+.card.besar {
+    transform: scale(1.23);
+}
+/* end latihan 4 */
+
+/* latihan 5 */
+.container-lima {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 50px auto;
+    display: flex;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.kotak span {
+    margin: auto;
+}
+
+
+/* end latihan 5 */
+
 
 /* responsive */
 
